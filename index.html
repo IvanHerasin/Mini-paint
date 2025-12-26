@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Paint</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Mini Paint</h2>
+
+<div class="toolbar">
+  
+  <input type="color" id="colorPicker" value="#000000" />
+
+  
+  <label>Товщина:</label>
+  <input type="range" id="lineWidth" min="1" max="20" value="5" />
+
+  
+  <button id="penBtn">Пензель</button>
+  <button id="eraserBtn">Гумка</button>
+  <button id="clearBtn">Очистити</button>
+
+  
+  <button id="saveBtn">Зберегти</button>
+  <button id="replayBtn">Відтворити</button>
+</div>
+
+<canvas id="myCanvas" width="600" height="400"></canvas>
+
+<script src="main.js"></script>
+
+</body>
+</html>
